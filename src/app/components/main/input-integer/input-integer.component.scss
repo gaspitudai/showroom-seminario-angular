@@ -1,0 +1,21 @@
+.inp-quantity, .btn-downQuantity, .btn-upQuantity {
+    text-align: center;
+}
+.btn-downQuantity, .btn-upQuantity {
+    width: 5vh;
+    height: 5vh;
+    border-radius: 5em;
+    background-color: #5324ff;
+    color: #fff;
+}
+.inp-quantity {
+    width: 10%;
+    height: 4vh;
+    margin: 0 1em;
+    border-bottom: 2px solid #5324ff;
+}
+    .ropa-input-box {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
