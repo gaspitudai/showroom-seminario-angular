@@ -3,7 +3,7 @@ import { Component, EventEmitter, Input, Output, OnInit } from '@angular/core';
 @Component({
   selector: 'input-integer',
   templateUrl: './input-integer.component.html',
-  styleUrls: ['./input-integer.component.scss']
+  styleUrls: ['./input-integer.component.css']
 })
 export class InputIntegerComponent implements OnInit {
 

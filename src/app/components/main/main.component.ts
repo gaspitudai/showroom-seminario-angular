@@ -6,7 +6,7 @@ import { Ropa } from '../../models/ropa/ropa';
 @Component({
   selector: 'app-main',
   templateUrl: './main.component.html',
-  styleUrls: ['./main.component.scss']
+  styleUrls: ['./main.component.css']
 })
 export class MainComponent implements OnInit {
   
