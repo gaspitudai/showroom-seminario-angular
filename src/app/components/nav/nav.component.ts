@@ -4,7 +4,7 @@ import { RopaCartService } from 'src/app/services/ropa-cart.service';
 @Component({
   selector: 'app-nav',
   templateUrl: './nav.component.html',
-  styleUrls: ['./nav.component.scss']
+  styleUrls: ['./nav.component.css']
 })
 export class NavComponent implements OnInit {
 
