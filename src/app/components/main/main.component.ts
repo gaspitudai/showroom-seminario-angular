@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { RopaCartService } from 'src/app/services/ropa-cart.service';
+import { RopaCartService } from '../../services/ropa-cart.service';
 import { RopaService } from '../../models/ropa/ropa.service';
 import { Ropa } from '../../models/ropa/ropa';
 

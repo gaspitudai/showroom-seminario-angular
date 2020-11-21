@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { Observable } from 'rxjs';
-import { RopaCartService } from 'src/app/services/ropa-cart.service';
+import { RopaCartService } from '../../../services/ropa-cart.service';
 import { Ropa } from '../../../models/ropa/ropa';
 
 @Component({

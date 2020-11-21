@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { RopaCartService } from 'src/app/services/ropa-cart.service';
+import { RopaCartService } from '../../services/ropa-cart.service';
 
 @Component({
   selector: 'app-nav',
@@ -12,9 +12,7 @@ export class NavComponent implements OnInit {
     displayNone: true
   }
 
-  constructor(public cartService: RopaCartService) {
-
-  }
+  constructor(public cartService: RopaCartService) { }
 
   ngOnInit(): void {
     
